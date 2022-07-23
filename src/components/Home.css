@@ -1,19 +1,29 @@
+img {
+  opacity: 0.3;
+}
 
-img{
-    opacity: 0.3;
+.home::after {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8)), url('../resources/work6.jpg') fixed center no-repeat;;
+  opacity: 0.3;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
 }
 
 div.transbox {
-    
-    position: fixed;
-    padding: 2%;
-  top: 40%;
-  left: 40%;
-  margin-top: -50px;
-  margin-left: -30px;    
-  background-color: #dbb6e2;
-    opacity: 0.6;
-    font-weight: bolder;
-    font-size: 60px;
-    color: black;
-  }
+  position: fixed;
+  padding: 2%;
+  background-color: #d48fe2;
+  opacity: 0.6;
+  font-weight: bolder;
+  color: #282828;
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

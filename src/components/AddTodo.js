@@ -6,6 +6,7 @@ class AddTodo extends React.Component {
         id:0,
         content:''
     }
+
     handleChange = (e) => {
         this.setState({
             content: e.target.value
@@ -20,8 +21,8 @@ class AddTodo extends React.Component {
             id:0,
             content:''
         })
-
     }
+
     render() {
         return(
             <div>
